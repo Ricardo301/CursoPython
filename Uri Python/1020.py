@@ -1,6 +1,6 @@
 n = int(input())
 ano = n//365
-mes = (n//30)-ano*12
+mes = (n%365)//30
 dia=(n%365)%30
 
 
