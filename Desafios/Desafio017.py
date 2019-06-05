@@ -1,6 +1,6 @@
-import math
-catop = float(input())
-catad = float(input())
-h=math.hypot(catop,catad)
-print(h)
+from math import hypot
+catop = float(input('Cateto opsto: '))
+catad = float(input('Cateto adjacente '))
+h=hypot(catop,catad)
+print('Hipotenusa: {:.2f}'.format(h))
 
