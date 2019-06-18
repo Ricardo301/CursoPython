@@ -1,3 +1,4 @@
 n=int(input('Num: '))
-
-print('Dobro = {} , Triplo = {} , Raiz = {}'.format(n*2,n*3,n**(1/2)))
+cor = '\033[1;36m'
+fimcor= '\033[m'
+print('Dobro = {}{}{} , Triplo = {}{}{} , Raiz = {}{}'.format(cor,n*2,fimcor,cor,n*3,fimcor,cor,n**(1/2)))
