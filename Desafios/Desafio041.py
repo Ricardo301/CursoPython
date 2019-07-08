@@ -1,7 +1,7 @@
 import datetime
-anoComp = datetime.date.today().year
+AnoComputador = datetime.date.today().year
 ano = int (input('Ano de Nascimento: '))
-idade = anoComp-ano
+idade = AnoComputador-ano
 print('O atleta tem {} anos.'.format(idade))
 if idade <=9:
     print('MIRiM')
