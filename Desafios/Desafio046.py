@@ -5,4 +5,8 @@ init()
 for x in range(10, -1, -1):
     print(x)
     sleep(1)
-print('\033[36mFogos ***')
+print('\033[36mBum! Bum! Pow! ')
+print("""
+            
+
+""")
