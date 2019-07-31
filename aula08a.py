@@ -1,11 +1,8 @@
 import random
-num=int(input('Digite um nuero: '))
+num=int(input('Digite um numero: '))
 
-nome=input('Digite um nore')
-nome2=input('Digite um nore')
-nom3=input('Digite um nore')
-nome4=input('Digite um nore')
+nome=list(map(str,input().split()))
 
-sorte=random.choice(nome,nome2,nome4,nom3)
+sorte=random.choice(nome)
 
 print(sorte)
