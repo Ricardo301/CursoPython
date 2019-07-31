@@ -1,3 +1,1 @@
-olla meundsf 
-
-    print('ola!')
+print('ola!')
