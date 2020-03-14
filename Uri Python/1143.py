@@ -1,8 +1,4 @@
-n = int(input())
+num = int(input())
 
-for x in range(n):
-    num = 1
-    for j in range(3):
-        print(num,end=' ')
-        num+=1
-    print()
+for x in range(1,num+1):
+    print('{} {} {}'.format(x,x**2,x**3))
